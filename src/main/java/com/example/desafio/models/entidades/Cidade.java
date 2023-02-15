@@ -55,6 +55,12 @@ public class Cidade {
         this.mesoRegiao = mesoRegiao;
     }
 
+    public Cidade(String string, String string2, String string3, boolean b) {
+    }
+
+    public Cidade(int i, String string, String string2, boolean b, int j, int k, int l) {
+    }
+
     public Integer getIbgeId() {
         return ibgeId;
     }

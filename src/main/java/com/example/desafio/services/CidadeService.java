@@ -27,6 +27,10 @@ public class CidadeService {
 
 
 
+    public CidadeService(CidadeRepository cidadeRepository2) {
+    }
+
+
     public void saveCidadesFromCsv(MultipartFile file) throws IOException {
 
           // Lê o arquivo CSV usando o OpenCSV
